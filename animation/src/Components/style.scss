@@ -1,0 +1,91 @@
+.sectionOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  .box{
+    width: 300px;
+    .line{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+}
+
+.letter{
+  display: inline-block;
+}
+
+.letter{
+  transition: transform 250ms ease
+}
+
+.fancy:hover .letter:nth-child(1) {
+  transform: translate(-80%, 60%) rotate(8deg);
+}
+
+.fancy:hover .letter:nth-child(2) {
+  transform: translate(-40%, 20%) rotate(4deg);
+}
+
+.fancy:hover .letter:nth-child(3) {
+  transform: translate(-10%, 60%) rotate(-6deg);
+}
+
+.fancy:hover .letter:nth-child(4) {
+  transform: translate(0%, 8%) rotate(-8deg);
+}
+
+.fancy:hover .letter:nth-child(5) {
+  transform: translate(0%, -20%) rotate(5deg);
+}
+
+.fancy:hover .letter:nth-child(6) {
+  transform: translate(0%, 20%) rotate(-3deg);
+}
+
+.fancy:hover .letter:nth-child(7) {
+  transform: translate(0%, -40%) rotate(-5deg);
+}
+
+.fancy:hover .letter:nth-child(8) {
+  transform: translate(0%, 15%) rotate(10deg);
+}
+
+.fancy:hover .letter:nth-child(9) {
+  transform: translate(0%, -50%) rotate(8deg);
+}
+
+.fancy:hover .letter:nth-child(10) {
+  transform: translate(0%, 15%) rotate(-6deg);
+}
+
+.fancy:hover .letter:nth-child(11) {
+  transform: translate(50%, -80%) rotate(-3deg);
+}
+
+.fancy:hover .letter:nth-child(12) {
+  transform: translate(120%, -30%) rotate(-10deg);
+}
+
+.fancy:hover .letter:nth-child(13) {
+  transform: translate(130%, -80%) rotate(-10deg);
+}
+
+.fancy:hover .letter:nth-child(14) {
+  transform: translate(170%, -30%) rotate(-10deg);
+}
+
+
+
+
+
+
