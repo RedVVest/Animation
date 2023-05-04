@@ -41,6 +41,7 @@ function SectionOne() {
                      onMouseLeave={handleFancyLeave}>
                     {letters.map((item, index)=> (
                         <p
+                            key={index}
                             className="letter"
 
                         >{item}</p>

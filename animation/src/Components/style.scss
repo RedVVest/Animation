@@ -1,4 +1,16 @@
+html{
+  scroll-behavior: smooth;
+
+}
+
+html{
+  scroll-snap-type: y mandatory;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 .sectionOne{
+  scroll-snap-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +129,7 @@ $pink: rgb(244, 143, 177);
 }
 
 .sectionTwo{
+  scroll-snap-align: center;
   display: grid;
   justify-content: center;
   align-items: center;
